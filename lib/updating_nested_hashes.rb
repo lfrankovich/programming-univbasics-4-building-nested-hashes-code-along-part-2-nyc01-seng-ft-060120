@@ -66,6 +66,8 @@ if epic_tragedy[:additional_characters]
   else 
   epic_tragedy[:additional_characters] = 1
   
+  [:additional_characters][:name]="Prince Escalus"
+  [:aditional_characters][:name]="Apothecary"
 
    # After your code, the following line will return the altered hash
    epic_tragedy
