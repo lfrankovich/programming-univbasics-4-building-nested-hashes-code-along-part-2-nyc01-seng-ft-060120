@@ -61,10 +61,10 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
 
-if epic_tragedy["additional_characters"]
-  epic_tragedy["additional_characters"] += 1
+if epic_tragedy[:additional_characters]
+  epic_tragedy[:additional_characters] += 1
   else 
-  epic_tragedy["additional_characters"] = 1
+  epic_tragedy[:additional_characters] = 1
   
 
    # After your code, the following line will return the altered hash
